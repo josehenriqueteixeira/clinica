@@ -1,9 +1,6 @@
-.nav-padrao .nav-button{
-	width: 92%
-}
 
-	.logo a{
-		text-align: center;
+.logo a{
+	text-align: center;
 }
 
 .navbar-default .navbar-nav>li>a{
@@ -51,6 +48,23 @@ footer{
 	display: block;
 }
 
+.btn-enviar{
+	padding: 10px;
+	border-radius: 20px;
+	border: 2px solid; 
+	background-color: white;
+	font-weight: bold;
+	width: 100%;
+	outline: none;
+	margin-bottom: 3%;
+
+}
+
+.btn-enviar:hover{
+	background-color: #19d0cd;
+	padding: 10px;
+}
+
 .submit{
 	padding: 10px;
 	margin: 12px;
@@ -59,13 +73,15 @@ footer{
 	background-color: white;
 	font-weight: bold;
 	width: 100%;
+	outline: none;
+
+
 
 }
 
 .submit:hover{
 	background-color: #19d0cd;
 	padding: 10px;
-	margin: 10px;
 }
 
 
@@ -131,6 +147,13 @@ footer{
 	padding: 6px;
 	margin-bottom: 3%;
 }
+
+.btn-arquivo{
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+
 
 @media (max-width:768px){
 

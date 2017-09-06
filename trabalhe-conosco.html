@@ -29,7 +29,9 @@
 	<!--menu-->
 	<div id="navbar" class ="nav-padrao navbar navbar-default navbar-static-top">
 		<button type="button" class="nav-button navbar-toggle" id="mobile-menu" data-toggle = "collapse" data-target =".navHeaderCollapse">
-			<span>Menu</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
 		</button>
 		<!--opções do menu-->
 		<div class= "collapse navbar-collapse navHeaderCollapse">
@@ -44,6 +46,7 @@
 			</div>
 		</div>
 	</div>
+
 	<div class="jumbotron jumbo">
 		<h1> Trabalhe Conosco </h1>
 	</div>
@@ -82,6 +85,17 @@
 						<h4 class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><b>E-mail:</b></h4>
 						<input type="text" id="tc_email" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 tc_email" placeholder="E-mail" required=""/>
 						<input type="text" id="tc_email_confirma" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 tc_email_confirma" placeholder="E-mail de Confirmação" required=""/>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<form class="col-lg-12 col-md-12 col-sm-12 col-xs-12" name="upload" id="upload" method="post">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<h4><b>Selecione o arquivo:</b></h4>
+								<input class="btn-arquivo" type="file" name="arquivo" id="arquivo" />
+							</div>
+						</form>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<input class="col-lg-12 col-md-12 col-sm-12 col-xs-12 btn-enviar" type="submit" />
 					</div>
 				</div>
 			</div>
