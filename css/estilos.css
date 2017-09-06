@@ -1,10 +1,5 @@
-.navbar-default .navbar-toggle{
+.nav-padrao .nav-button{
 	width: 92%
-}
-
-.navbar-toggle .icon-bar{
-	width: 8%;
-
 }
 
 	.logo a{
@@ -25,7 +20,7 @@
 
 }
 
-.jumbotron{
+.jumbo{
 	padding: 1%;
 }
 
