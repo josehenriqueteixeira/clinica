@@ -1,4 +1,12 @@
 
+#carrossel{
+	padding-bottom: 10px;
+}
+
+.item img{
+	width: 100%;
+}
+
 .logo a{
 	text-align: center;
 }
