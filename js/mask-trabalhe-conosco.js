@@ -1,0 +1,9 @@
+jQuery(function($){
+   $(".tc_cpf").mask("999.999.999-99");
+   $(".tc_rg").mask("99.999.999-9");
+   $(".tc_numero").mask("999999999");
+   $(".tc_data_nasc").mask("99/99/9999");
+   $(".tc_cep").mask("99999-999");
+   $(".tc_telefone").mask("(99)9999-9999");
+   $(".tc_celular").mask("(99)99999-9999");
+ });

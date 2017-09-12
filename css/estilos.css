@@ -1,3 +1,10 @@
+.indicador .active{
+	background-color: #19d0cd;
+}
+
+.indicador li{
+	background-color: #19d0cd;	
+}
 
 #carrossel{
 	padding-bottom: 10px;
@@ -5,6 +12,7 @@
 
 .item img{
 	width: 100%;
+	height: 100%;
 }
 
 .logo a{
@@ -22,13 +30,12 @@
 	color:#19d0cd;
 	margin-top: 0;
 	margin-bottom:0;
-
 }
 
 .jumbo{
 	padding: 1%;
+	margin-top: 1%;
 }
-
 
 .map-responsive{
 	overflow:hidden;
@@ -36,10 +43,11 @@
 	position:relative;
 	height:0;
 }
+
 .map-responsive iframe{
 	left:0;
 	top:0;
-	height:100%;
+	height:95%;
 	width:100%;
 	position:absolute;
 }
@@ -49,8 +57,7 @@
 	font-weight: bold;
 }
 
-
-footer{
+.rodape{
 	background-color: #F1EFEF;
 	padding-bottom: 1%;
 	display: block;
@@ -65,7 +72,6 @@ footer{
 	width: 100%;
 	outline: none;
 	margin-bottom: 3%;
-
 }
 
 .btn-enviar:hover{
@@ -82,9 +88,11 @@ footer{
 	font-weight: bold;
 	width: 100%;
 	outline: none;
+}
 
-
-
+.cabecalho{
+	padding:1%;
+	margin: 2%;
 }
 
 .submit:hover{
@@ -92,14 +100,12 @@ footer{
 	padding: 10px;
 }
 
-
 .form_nome{
 	border-radius: 20px;
 	border: 2px solid;
 	outline: none;
 	padding: 10px;
 	margin: 10px;
-
 
 }
 
@@ -109,7 +115,6 @@ footer{
 	outline: none;
 	padding: 10px;
 	margin: 10px;
-
 }
 
 .form_telefone{
@@ -162,11 +167,56 @@ footer{
 }
 
 
+.nav-padrao{
+	background: none;
+	box-shadow: none;
+	border-color: white;
+
+}
+
+.navegar{
+	font-size: 20px;
+}
+
+.menu-mobile{
+	margin-right: -25px;
+}
+
+.parceiros h3{
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 3%;
+}
+.redes-sociais2{
+	float:right;
+}
+
+.produtos .thumbnail{
+	margin-top: 2%;
+	text-align: center;
+
+}
+
+.produtos .thumbnail img{
+	width: 525px;
+	height: 240px;
+
+}
+
+.parceiros .thumbnail{
+	background-color: #F1EFEF;
+	border: none;
+	box-shadow: none;
+
+}
 
 @media (max-width:768px){
 
-	.contato, .redes-sociais{
+	.contato, .redes-sociais, .endereco{
 		text-align: center;
+	}
+	.parceiro-responsivo{
+		display: none;
 	}
 }
 
@@ -175,8 +225,9 @@ footer{
 		display:inline-block;
 		padding-left: 23px;	
 	}
-	.nav{
-		padding-left: 16%;
+	.navegar{
+		padding-left: 9%;
+		margin-top: 5%;
 	}
 
 }
@@ -188,4 +239,14 @@ footer{
 	}
 }
 
+
+.informacoes-contato-rodape input	{
+
+	border-radius: 20px;
+	border: 2px solid;
+	outline: none;
+	padding: 6px;
+	margin-bottom: 3%;
+
+}
 
