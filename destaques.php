@@ -8,7 +8,7 @@
 
 					<div class="boximg">
 						<img src="img/destaques/clinico.jpg">
-						<span class="glyphicon glyphicon-plus mais-info"></span>
+						<a href="detalhe-especialidade.php?especialidade=Clinico"><span class="glyphicon glyphicon-plus mais-info"></span></a>
 					</div>
 				</div>
 			</div>
@@ -18,7 +18,7 @@
 					<div class="panel-heading painel-destaques"><strong>Cardiologia</strong></div>
 					<div class="boximg">
 						<img src="img/destaques/cardiologia.jpg">
-						<span class="glyphicon glyphicon-plus mais-info"></span>
+						<a href="detalhe-especialidade.php?especialidade=Cardiologia"><span class="glyphicon glyphicon-plus mais-info"></span></a>
 					</div>
 				</div>
 			</div>
@@ -28,7 +28,7 @@
 
 					<div class="boximg">
 						<img src="img/destaques/cirurgia.jpg">
-						<span class="glyphicon glyphicon-plus mais-info"></span>
+						<a href="detalhe-especialidade.php?especialidade=Cirurgia"><span class="glyphicon glyphicon-plus mais-info"></span></a>
 					</div>
 				</div>
 			</div>
@@ -39,7 +39,7 @@
 					<div class="panel-heading painel-destaques"><strong>Fisioterapia</strong></div>
 					<div class="boximg">
 						<img src="img/destaques/fisio.jpg">
-						<span class="glyphicon glyphicon-plus mais-info"></span>
+						<a href="detalhe-especialidade.php?especialidade=Fisioterapia"><span class="glyphicon glyphicon-plus mais-info"></span></a>
 					</div>
 				</div>
 			</div>
@@ -48,7 +48,7 @@
 					<div class="panel-heading painel-destaques"><strong>Nutricionista</strong></div>
 					<div class="boximg">
 						<img src="img/destaques/nutricao.jpg">
-						<span class="glyphicon glyphicon-plus mais-info"></span>
+						<a href="detalhe-especialidade.php?especialidade=Nutricionista"><span class="glyphicon glyphicon-plus mais-info"></span></a>
 					</div>
 				</div>
 			</div>
@@ -57,7 +57,7 @@
 					<div class="panel-heading painel-destaques"><strong>Odontologia</strong></div>
 					<div class="boximg">
 						<img src="img/destaques/odontologia.png">
-						<span class="glyphicon glyphicon-plus mais-info"></span>
+						<a href="detalhe-especialidade.php?especialidade=Odontologia"><span class="glyphicon glyphicon-plus mais-info"></span></a>
 					</div>
 				</div>
 			</div>

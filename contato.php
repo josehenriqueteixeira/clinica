@@ -1,6 +1,6 @@
 <?php include ("web/cabecalho.php");?>
 
-<div class="jumbotron jumbo">
+<div class="jumbo jumbotron">
 			<h1> Contato </h1>
 		</div>
 		<!--Mapa-->

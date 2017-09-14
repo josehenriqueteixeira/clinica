@@ -1,3 +1,9 @@
+.quem-somos{
+	font-family: Arial;
+	text-align: justify-all;
+
+}
+
 .btn-mais{
 	background-color: transparent;
 	border: none;
@@ -37,6 +43,7 @@
 .jumbo{
 	padding: 1%;
 	margin-top: 1%;
+	background-color: white;
 }
 
 .map-responsive{
@@ -59,6 +66,8 @@
 	text-align: center;
 	font-weight: bold;
 }
+
+
 
 .rodape{
 	background-color: #F1EFEF;
@@ -214,6 +223,10 @@
 
 }
 
+.parceiro-responsivo{
+	background-color: #F1EFEF;
+}
+
 @media (max-width:768px){
 
 	.contato, .redes-sociais, .endereco{
@@ -260,30 +273,28 @@
 }
 
 .outerpadding{
-    padding:4% 0%;}
+	padding:4% 0%;}
 
-.boximg{
-	position:relative;
-	overflow:hidden;
+	.boximg{
+		position:relative;
+		overflow:hidden;
 
 	}
 	
-.mais-info{
-	background: none repeat scroll 0 0 #19d0cd;
-    height: 30px;
-    padding: 7px;
-    position: absolute;
-    right: 5px;
-    top: 130px;
-    width: 25px;
-	opacity:0.4;
-	transition:all ease-in 300ms;
-	cursor:pointer;
+	.mais-info{
+		background: none repeat scroll 0 0 #19d0cd;
+		height: 30px;
+		padding: 7px;
+		position: absolute;
+		right: 5px;
+		top: 130px;
+		width: 25px;
+		opacity:0.4;
+		transition:all ease-in 300ms;
+		cursor:pointer;
 	}
-	
 
-.boximg:hover .mais-info{
-	opacity:1;
-	
-}
+	.boximg:hover .mais-info{
+		opacity:1;
 
+	}
